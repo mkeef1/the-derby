@@ -1,2 +1,7 @@
-extends ../shared/template
-block content
+.gambler(data-gambler-id=gambler._id.toString())
+  .photo(style='background-image:url(#{gambler.photo});')
+  .name= gambler.name
+  .spouse= gambler.spouse
+  .cash= gambler.cash
+  .assets= gambler.assets
+  .results= gambler.results

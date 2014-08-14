@@ -1,6 +1,6 @@
 ## name of project
 ### Code Badges
-build status icon
+[![Build Status](https://travis-ci.org/mkeef1/the-derby.svg?branch=master)](https://travis-ci.org/mkeef1/the-derby)
 [![Coverage Status](https://coveralls.io/repos/mkeef1/the-derby/badge.png)](https://coveralls.io/r/mkeef1/the-derby)
 
 ### About
