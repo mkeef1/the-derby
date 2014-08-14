@@ -1,7 +1,7 @@
 ## name of project
 ### Code Badges
 build status icon
-coverage status icon
+[![Coverage Status](https://coveralls.io/repos/mkeef1/the-derby/badge.png)](https://coveralls.io/r/mkeef1/the-derby)
 
 ### About
 write a description about your project

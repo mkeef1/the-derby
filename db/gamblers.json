@@ -1,4 +1,5 @@
 {
+  "_id":{"$oid":"000000000000000000000001"},
   "name":"Bob",
   "spouse":{"name": "Sara", "photo":"http://th01.deviantart.net/fs36/300W/i/2008/266/2/c/The_Gambler_by_t_bone_tory.jpg"},
   "photo":"http://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Gambler71.jpg/220px-Gambler71.jpg",
@@ -8,6 +9,7 @@
 }
 
 {
+  "_id":{"$oid":"000000000000000000000002"},
   "name":"Jim",
   "spouse":{"name": "Sally", "photo":"http://pad2.whstatic.com/images/thumb/e/eb/Flirt-if-You-Are-a-Shy-Girl-Step-1.jpg/670px-Flirt-if-You-Are-a-Shy-Girl-Step-1.jpg"},
   "photo":"http://jimsmuse.files.wordpress.com/2008/05/gambler.jpg",
@@ -17,6 +19,7 @@
 }
 
 {
+  "_id":{"$oid":"000000000000000000000003"},
   "name":"George",
   "spouse":{"name": "Wilma", "photo":"http://seductionfaq.com/blog/wp-content/uploads/2012/07/ways-to-win-a-girls-heart.png"},
   "photo":"http://2.bp.blogspot.com/-9lnPxf20MBg/TtU1USP1H1I/AAAAAAAAFxE/IcBbtTXySIA/s1600/Gambler.jpg",
