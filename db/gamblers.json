@@ -5,7 +5,7 @@
   "photo":"http://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Gambler71.jpg/220px-Gambler71.jpg",
   "cash":1000,
   "assets":[{"name":"ring", "photo":"http://www.indigo-studios.org/wp-content/uploads/2013/11/tension-engagement-ring.jpg", "value":5000}, {"name":"watch", "photo":"http://www.danpontefract.com/wp-content/uploads/2013/05/watch.jpg", "value":2000}],
-  "results":{"wins":5, "loses":3}
+  "results":{"wins":5, "losses":3}
 }
 
 {
@@ -15,7 +15,7 @@
   "photo":"http://jimsmuse.files.wordpress.com/2008/05/gambler.jpg",
   "cash":1000,
   "assets":[{"name":"gold bar", "photo":"http://upload.wikimedia.org/wikipedia/commons/a/a5/Gold_Bars.jpg", "value":4000}, {"name":"silver coins", "photo":"http://www.silver-coin-investor.com/images/iStock_000005558311Medium_4_1_1.jpg", "value":3000}],
-  "results":{"wins":6, "loses":2}
+  "results":{"wins":6, "losses":2}
 }
 
 {
@@ -25,6 +25,6 @@
   "photo":"http://2.bp.blogspot.com/-9lnPxf20MBg/TtU1USP1H1I/AAAAAAAAFxE/IcBbtTXySIA/s1600/Gambler.jpg",
   "cash":2000,
   "assets":[{"name":"clock", "photo":"http://www.engravingconnectionstore.com/Grandfather%20Clock.jpg", "value":2000}, {"name":"statue", "photo":"http://img.dictionary.com/statue-117955-290-400.jpg", "value":1000}],
-  "results":{"wins":4, "loses":2}
+  "results":{"wins":4, "losses":2}
 }
 

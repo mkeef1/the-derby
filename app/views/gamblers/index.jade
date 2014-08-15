@@ -4,7 +4,24 @@ block content
 
   #gamblers
     each gambler in gamblers
-      include gamblers
+      .gambler(data-gambler-id=gambler._id.toString())
+        .photo(style='background-image:url(#{gambler.photo});')
+        .name= gambler.name
+        .spouse
+          .photo(style='background-image:url("#{gambler.spouse.photo}")')
+          .name= gambler.spouse.name
+        .cash $#{gambler.cash.toFixed(2)}
+        .assets
+          each asset in gambler.assets
+            .asset
+              .photo(style='background-image:url("#{asset.photo}")')
+                .info
+                  .name= asset.name
+                  .value $#{asset.value.toFixed(2)}
+          .results
+            span.wins Wins: #{gambler.results.wins},
+            span.losses Losses: #{gambler.results.losses}
 
 block scripts
+  script(src='/js/user/gambler.js')
 

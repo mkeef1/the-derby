@@ -37,5 +37,24 @@ describe('Gambler', function(){
       });
     });
   });
-});
 
+  describe('.findById', function(){
+    it('should find a gambler by its id - as string', function(done){
+      Gambler.findById('000000000000000000000001', function(gambler){
+        expect(gambler.name).to.equal('Bob');
+        expect(gambler).to.be.instanceof(Gambler);
+        done();
+      });
+    });
+  });
+
+  describe('#removeAsset', function(){
+    it('should remove an asset from a gambler', function(done){
+      Gambler.findById('000000000000000000000001', function(g){
+        g.sellAsset('ring');
+        expect(g.assets).to.have.length(1);
+        done();
+      });
+    });
+  });
+});
