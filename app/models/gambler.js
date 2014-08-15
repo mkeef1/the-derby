@@ -8,7 +8,7 @@ function Gambler(g){
   this.spouse = g.spouse;
   this.photo = g.photo;
   this.cash = g.cash;
-  this.assets = g.assets;
+  this.assets = [];
   this.results = g.results;
 }
 

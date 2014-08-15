@@ -51,7 +51,7 @@ describe('Gambler', function(){
   describe('#removeAsset', function(){
     it('should remove an asset from a gambler', function(done){
       Gambler.findById('000000000000000000000001', function(g){
-        g.sellAsset('ring');
+        g.removeAsset('ring');
         expect(g.assets).to.have.length(1);
         done();
       });
